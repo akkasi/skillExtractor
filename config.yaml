@@ -1,0 +1,23 @@
+Choice: 1
+  # - 1  Create, Train and Evaluate a Model
+  # - 2  Train a model with all available data
+  # - 3  Apply the trained model on given text
+
+Path_to_labeled_data: '/home/akkasi/pythonProject/Bgreator/SkillAnnotation/finalAnnotatedData/nerSkills_Jul-14-2021.tsv'
+Path_to_Pickled_data_TrainTest: 'data/PickledDataTrainTest_Jul-14-2021.pickle'
+Path_to_Pickled_data_full: 'data/PickledData_full_Jul-14-2021.pickle'
+Path_to_Pickled_Idx: 'data/pickledIdxTrainTest_Jul-14-2021.pickle'
+Path_to_Pickled_Idx_full: 'data/pickledIdx_full_Jul-14-2021.pickle'
+Path_to_Trained_models: 'models/'
+path_to_Best_Trained_model: 'models/NER-model-1.00-Jul-16-2021.hdf5'
+use_pretrainedWE: True
+path_to_pretrained_WE:  '/home/akkasi/pythonProject/‌BERT_CNN_TextClassification/glove.6B.100d.txt'
+#HyperParameters
+maxlen: 100
+split_ratio: 0.2
+validation_split: 0.3
+WordEmbedding_dim: 100
+dropout: 0.2
+epochs: 70
+lr: 0.0005
+batch_size: 32

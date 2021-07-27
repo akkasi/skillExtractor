@@ -1,0 +1,21 @@
+*.dmb
+*.rsc
+*.int
+*.lk
+*.zip
+*~
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+dNER2/
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.vscode
+*.DS_Store
+.idea
+*.pyc
+pycache
